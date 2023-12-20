@@ -1,0 +1,56 @@
+.Présentation{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.blob{
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.IconePres{
+    background: linear-gradient(140deg, #4993d7, #6931c5);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.Pres{
+    z-index: 2;
+    margin-top: 6%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6%;
+    
+}
+
+.ZoneText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PresArrangement{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 2%;
+    margin: 3rem;
+}
+
+.PresTitre{
+    font-size: xx-large;
+    color: #4993d7;
+    padding-bottom: 2%;
+}
+
+.PresText{
+    font-size: large;
+    color: white;
+    font-weight:100;
+}

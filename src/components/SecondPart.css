@@ -1,0 +1,92 @@
+.Skill{
+    position: relative;
+    background-color: #282828;
+}
+
+
+.TitreSkill{
+    color: #4993d7;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.SkillsPlacement{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.Test{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.SkillTitle{
+    width: 10%;
+    color:#4993d7;
+    font-size:1.40rem;
+}
+
+.CardSkills{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    gap: 10%;
+    width: 50%;
+    background:  linear-gradient(91deg, #282828 0.56%, #3F3F3F 99.4%);;
+    padding: 1%;
+    position: relative;
+}
+
+.IconeSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.IconesSkills{
+    width: 80%;
+    height: auto;
+}
+
+.NomIcone{
+    opacity: 0;
+    z-index: 1;
+    color: white;
+    padding: 2px;
+    bottom: 92%;
+    position: absolute;
+    cursor:default;
+    transition: all ease-in-out 0.5s;
+}
+
+
+.IconDiv:hover .NomIcone{
+    opacity: 1;
+}
+
+.IconDiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.LogoSkill{
+    
+    bottom:60%;
+    left: 98%;
+    position: absolute;
+}
+
+.ImgSkill{
+    background: linear-gradient(91deg, #4993D7 0.87%, #6931C5 99.72%);
+    border-radius: 5px;
+    width: 2.5rem;
+    height: auto;
+}

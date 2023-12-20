@@ -1,0 +1,30 @@
+.bodyfirstpart{
+    background-color: #282828;
+    height: 65rem;
+}
+
+.VagueBot{
+    rotate: 180deg;
+}
+
+.Game{
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.ImageDéco{
+    position: relative;
+}
+
+.VagueTop{
+position: relative;
+}
+
+.VagueSurImage{
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10%;
+}

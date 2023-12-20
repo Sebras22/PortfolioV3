@@ -1,0 +1,36 @@
+.Header{
+    text-align: center;
+    padding: 2rem;
+}
+
+.TexteNom{
+    font-size: 4.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Nom{
+    color: #4993D7;
+}
+
+.TextePrésentation{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    padding: 2rem;
+}
+
+button{
+    border: none;
+    height: 3rem;
+    color: white;
+    font-size: 1.5rem;
+    width: 12rem;
+    font-family: 'Josefin Sans', sans-serif;    
+    border-radius: 10px;
+    background: linear-gradient(91deg, #4993D7 0.87%, #6931C5 99.72%);
+}

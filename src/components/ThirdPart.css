@@ -1,0 +1,76 @@
+.ThirdPart{
+    background-color: #282828;
+}
+
+.TitreThirdPart{
+    color: #4993d7;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.ArrangementProjects{
+    display: flex;
+    justify-content: center;
+}
+
+.Projects{
+    columns: 2;
+}
+
+.CardProjects{
+    position: relative;
+    width: 45rem;
+    height: auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.imgProject{
+    width: 45rem;
+    height: auto;
+    z-index: 0;
+    border-radius: 5px;
+}
+
+.InfoProjects{
+    opacity: 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-evenly;
+    background-color: #28282850;
+    gap: 4rem;
+    width: 92%;
+    height: 87%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all ease-in-out 0.5s; 
+    cursor: default;
+
+}
+
+.InfoProjects:hover{
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-evenly;
+    gap: 4rem;
+    background-color: #28282880;
+    width: 92%;
+    height: 87%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.TitreProjects{
+    color: #4993d7;
+    font-size: x-large;
+}
+
