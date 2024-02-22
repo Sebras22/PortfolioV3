@@ -20,14 +20,15 @@
 
 .CardProjects{
     position: relative;
-    width: 45rem;
+    width: 35rem;
     height: auto;
     text-align: center;
     padding: 2rem;
+    
 }
 
 .imgProject{
-    width: 45rem;
+    max-width: 100%;
     height: auto;
     z-index: 0;
     border-radius: 5px;

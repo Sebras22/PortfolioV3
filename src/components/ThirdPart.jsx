@@ -1,5 +1,6 @@
 import "./ThirdPart.css";
 import { Projects } from "../Table/Array.js";
+import Wave from "./wave.jsx";
 
 function ThirdPart() {
     return (
@@ -47,6 +48,9 @@ function ThirdPart() {
                     </section>
                 </section>
             </section>
+            <div className="VagueBot">
+                <Wave />
+            </div>
         </>
     );
 }

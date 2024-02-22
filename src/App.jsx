@@ -3,6 +3,7 @@ import Header from "./components/Header.jsx";
 import FirstPart from "./components/FirstPart.jsx";
 import SecondPart from "./components/SecondPart.jsx";
 import ThirdPart from "./components/ThirdPart.jsx";
+import ContactForm from "./components/ContactForm.jsx";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
                     <FirstPart />
                     <SecondPart />
                     <ThirdPart />
+                    <ContactForm />
                 </div>
                 {/* <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLSftsi5FxvoCA6UNvfaTfFjSk9orcVr0H9SzO4-sCxiceO9GZw/viewform?embedded=true"

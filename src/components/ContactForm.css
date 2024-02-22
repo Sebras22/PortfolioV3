@@ -1,0 +1,109 @@
+.MSG{
+    color: aliceblue;
+}
+.gotcha{
+    display: none;
+}
+
+
+.GlobalForm{
+    display: flex;
+    justify-content: center;
+}
+
+.Form{
+    display: flex;
+    align-items:start;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.InputTitle{
+    color: white;
+    margin-bottom: 3%;
+}
+
+textarea{
+    padding: 6px;
+    border-style: none;
+    border: none;
+    border-radius: 5px;
+    min-width: 18rem;
+    max-width: 18rem;
+    max-height: 12.25rem;
+    min-height: 12.25rem;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #282828;
+
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.TitreContact{
+    color: #4993d7;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    margin: 3rem;
+}
+
+input{
+    width: 17rem;
+    height: 2rem;
+    padding-left: 10px;
+    border-style: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10%;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #282828;
+}
+
+input:focus{
+    outline: none;
+    background-color: #282828;
+    
+}
+
+
+
+
+.Inputhaut{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10.5rem;
+
+}
+
+
+.Submit{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MSGdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MSG{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+
+.spanMSG{
+    color: #4993D7;
+    margin: 0 5px;
+}

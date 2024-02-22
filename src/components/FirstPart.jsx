@@ -1,13 +1,13 @@
 import "./FirstPart.css";
 import CarteQualités from "./CarteQualités";
 import Présentation from "./Présentation.jsx";
-import Vague from "./Vague";
+import Wave from "./wave.jsx";
 
 function FirstPart() {
     return (
         <>
             <div className="test">
-                <Vague />
+                <Wave />
                 <section className="bodyfirstpart">
                     <section>
                         <CarteQualités />
@@ -23,10 +23,10 @@ function FirstPart() {
                         />
                         <div className="VagueSurImage">
                             <div className="VagueBot">
-                                <Vague />
+                                <Wave />
                             </div>
                             <div className="VagueTop">
-                                <Vague />
+                                <Wave />
                             </div>
                         </div>
                     </div>
