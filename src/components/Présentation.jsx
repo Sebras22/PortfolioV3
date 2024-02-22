@@ -5,16 +5,19 @@ function Présentation() {
     return (
         <>
             <section className="Présentation">
-                <div className="blob">
-                    <img src="./public/assets/blob.png" alt="" />
-                </div>
+                <img className="blob" src="./public/assets/blob.png" alt="" />
+
                 <div className="Pres">
                     {Pres.map((el, id) => {
                         return (
                             <>
                                 <section className="PresArrangement" key={id}>
-                                    <div className="IconePres">
-                                        <img src={el.src} alt="" />
+                                    <div>
+                                        <img
+                                            className="IconePres"
+                                            src={el.src}
+                                            alt=""
+                                        />
                                     </div>
                                     <section className="ZoneText">
                                         <div>

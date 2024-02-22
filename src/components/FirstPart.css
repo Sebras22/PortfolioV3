@@ -9,6 +9,7 @@
 
 .Game{
     max-width: 100%;
+    z-index: -1;
     height: auto;
     position: absolute;
 }
@@ -29,3 +30,10 @@ position: relative;
     justify-content: space-between;
     gap: 10%;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .bodyfirstpart{
+        height: 50rem;
+    }
+  }
