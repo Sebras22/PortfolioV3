@@ -127,6 +127,12 @@ export const Projects = [
                 src: "./public/assets/Symfony.png",
                 text: "Symfony"
             }
+        ],
+        modal:[
+            {
+                titre: "esfoihszefhszkef",
+                text:"sefdsefsefsefsefsef"
+            }
         ]
     },
     {

@@ -1,6 +1,7 @@
 import "./ThirdPart.css";
 import { Projects } from "../Table/Array.js";
 import Wave from "./wave.jsx";
+import Modal from "./modal.jsx";
 
 function ThirdPart() {
     return (
@@ -35,6 +36,18 @@ function ThirdPart() {
                                                                     alt=""
                                                                 />
                                                             </div>
+                                                        </>
+                                                    );
+                                                })}
+                                            </div>
+                                            <div>
+                                                {el.modal.map((el, id) => {
+                                                    return (
+                                                        <>
+                                                            <Modal
+                                                                Titre={Titre}
+                                                                text={text}
+                                                            />
                                                         </>
                                                     );
                                                 })}

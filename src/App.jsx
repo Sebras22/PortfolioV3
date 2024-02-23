@@ -4,6 +4,7 @@ import FirstPart from "./components/FirstPart.jsx";
 import SecondPart from "./components/SecondPart.jsx";
 import ThirdPart from "./components/ThirdPart.jsx";
 import ContactForm from "./components/ContactForm.jsx";
+import Modal from "./components/modal.jsx";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
             <div className="Site">
                 <Navbar />
                 <div className="Sitebody">
+                    <Modal />
                     <Header />
                     <FirstPart />
                     <SecondPart />
