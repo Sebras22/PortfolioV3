@@ -22,9 +22,6 @@ function SecondPart() {
                                                         className="IconeSection"
                                                         key={id}
                                                     >
-                                                        {/* <div className="NomIcone">
-                                                            {el.text}
-                                                        </div> */}
                                                         <div className="IconDiv">
                                                             <div className="NomIcone">
                                                                 {el.text}

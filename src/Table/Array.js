@@ -128,12 +128,12 @@ export const Projects = [
                 text: "Symfony"
             }
         ],
-        modal:[
+        modal:
             {
                 titre: "esfoihszefhszkef",
                 text:"sefdsefsefsefsefsef"
             }
-        ]
+        
     },
     {
         img: "./public/assets/Gamer.jpg",
@@ -144,7 +144,12 @@ export const Projects = [
                 src: "./public/assets/Symfony.png",
                 text: "HIHIHI"
             }
-        ]
+        ],
+        modal:
+        {
+            titre: "COUCOU",
+            text:"sefdsefsefsefsefsef"
+        }
     },
     {
         img: "./public/assets/Gamer.jpg",

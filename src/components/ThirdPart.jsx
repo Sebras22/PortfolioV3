@@ -2,8 +2,15 @@ import "./ThirdPart.css";
 import { Projects } from "../Table/Array.js";
 import Wave from "./wave.jsx";
 import Modal from "./modal.jsx";
+import { useState } from "react";
 
 function ThirdPart() {
+    // Un state
+    const [isOpen, setIsOpen] = useState(false);
+    // Une fonction pour ouvrir le modal
+    const open = () => setIsOpen(true);
+    // Une fonction pour fermer le modal
+    const close = () => setIsOpen(false);
     return (
         <>
             <section className="ThirdPart">
@@ -35,30 +42,31 @@ function ThirdPart() {
                                                                     src={el.src}
                                                                     alt=""
                                                                 />
+                                                                <button
+                                                                    onClick={
+                                                                        open
+                                                                    }
+                                                                >
+                                                                    Modal
+                                                                </button>
                                                             </div>
                                                         </>
                                                     );
                                                 })}
                                             </div>
-                                            {/* <div>
-                                                {el.modal.map((el, id) => {
-                                                    return (
-                                                        <>
-                                                            <Modal
-                                                                Titre={Titre}
-                                                                text={text}
-                                                            />
-                                                        </>
-                                                    );
-                                                })}
-                                            </div> */}
-                                            {/* <div>{el.tools}</div> */}
+                                            <div></div>
                                         </section>
                                     </section>
                                 </>
                             );
                         })}
                     </section>
+                    <Modal
+                        isOpen={isOpen}
+                        close={close}
+                        titre={Projects.modal?.titre}
+                        text={Projects.modal?.text}
+                    />
                 </section>
             </section>
             <div className="VagueBot">
