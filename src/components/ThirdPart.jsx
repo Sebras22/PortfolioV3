@@ -40,7 +40,7 @@ function ThirdPart() {
                                                     );
                                                 })}
                                             </div>
-                                            <div>
+                                            {/* <div>
                                                 {el.modal.map((el, id) => {
                                                     return (
                                                         <>
@@ -51,7 +51,7 @@ function ThirdPart() {
                                                         </>
                                                     );
                                                 })}
-                                            </div>
+                                            </div> */}
                                             {/* <div>{el.tools}</div> */}
                                         </section>
                                     </section>
