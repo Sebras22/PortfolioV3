@@ -94,4 +94,35 @@
 
 @media screen and (max-width: 768px){
 
+     .Carrousel{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-evenly;
+        align-content: flex-end;
+        align-items: center;
+        gap: 20px;
+        
+    }
+
+    .Carte{
+        background-color: #151515;
+        width: 18rem;
+        height: 7rem;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .Description{
+        color: white;
+        text-align: justify;
+        font-size: 0.95rem;
+        width: 16rem;
+    }
+
 }

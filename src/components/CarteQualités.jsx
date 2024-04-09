@@ -7,7 +7,7 @@ function CarteQualités() {
             <div className="Carrousel">
                 {Card.map((el, id) => {
                     return (
-                        <section className="Allcarte" key={id}>
+                        <section className="Allcarte" id={el.id} key={id}>
                             <div className="IcôneQualités">
                                 <img className="Icone" src={el.src} alt="" />
                             </div>
