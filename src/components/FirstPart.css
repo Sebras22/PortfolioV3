@@ -1,29 +1,28 @@
-.bodyfirstpart{
+.bodyfirstpart {
     background-color: #282828;
     height: 65rem;
 }
 
-.VagueBot{
+.VagueBot {
     rotate: 180deg;
 }
 
-.Game{
+.Game {
     max-width: 100%;
     z-index: -1;
     height: auto;
     position: absolute;
 }
 
-.ImageDéco{
+.ImageDéco {
     position: relative;
-
 }
 
-.VagueTop{
-position: relative;
+.VagueTop {
+    position: relative;
 }
 
-.VagueSurImage{
+.VagueSurImage {
     height: 40rem;
     display: flex;
     flex-direction: column;
@@ -31,15 +30,33 @@ position: relative;
     gap: 10%;
 }
 
-
 @media screen and (max-width: 1024px) {
-    .bodyfirstpart{
+    .bodyfirstpart {
         height: 50rem;
     }
-  }
+}
 
-@media screen and (max-width: 768px){
-    .VagueSurImage{
+@media screen and (max-width: 768px) {
+    .VagueSurImage {
         height: 25rem;
     }
-}  
+}
+
+@media screen and (max-width: 425px) {
+    .bodyfirstpart {
+        height: 60rem;
+    }
+    .Game {
+        margin-top: 2rem;
+        width: 40rem;
+        height: 30rem;
+        max-width: none;
+        z-index: -1;
+        height: auto;
+        position: absolute;
+    }
+    .ImageDéco {
+        position: relative;
+        overflow: hidden;
+    }
+}

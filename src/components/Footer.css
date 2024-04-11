@@ -1,13 +1,28 @@
-a{
+a {
     text-decoration: none;
     color: #646464;
 }
 
-.Footer{
+.Signature {
+    margin: 3rem;
+}
+
+.Footer {
     color: #646464;
     font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
-.FooterImg{
+.FooterImg {
     color: #646464;
+}
 
+.imgfooter {
+    /* margin: rem; */
+    width: 3rem;
+}
+
+.Icons8 {
+    font-size: large;
 }

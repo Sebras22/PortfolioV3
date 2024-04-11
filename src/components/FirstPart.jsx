@@ -16,11 +16,7 @@ function FirstPart() {
                 </section>
                 <section className="ImageDéco">
                     <div>
-                        <img
-                            src="./public/assets/Gamer.jpg"
-                            className="Game"
-                            alt=""
-                        />
+                        <img src="./assets/Gamer.jpg" className="Game" alt="" />
                         <div className="VagueSurImage">
                             <div className="VagueBot">
                                 <Wave />

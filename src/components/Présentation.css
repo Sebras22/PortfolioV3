@@ -1,24 +1,24 @@
-.Présentation{
+.Présentation {
     margin-top: 3rem;
     display: flex;
     justify-content: center;
     position: relative;
 }
 
-.blob{
+.blob {
     max-width: 100%;
     height: auto;
     position: absolute;
     z-index: 1;
 }
 
-.IconePres{
+.IconePres {
     background: linear-gradient(140deg, #4993d7, #6931c5);
     padding: 3px;
     border-radius: 5px;
 }
 
-.Pres{
+.Pres {
     z-index: 2;
     margin-top: 6%;
     width: 50%;
@@ -26,17 +26,16 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 6%;
-    
 }
 
-.ZoneText{
+.ZoneText {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.PresArrangement{
+.PresArrangement {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -44,23 +43,23 @@
     margin: 3rem;
 }
 
-.PresTitre{
+.PresTitre {
     font-size: xx-large;
     color: #4993d7;
     padding-bottom: 2%;
 }
 
-.PresText{
+.PresText {
     font-size: large;
     color: white;
-    font-weight:100;
+    font-weight: 100;
 }
 
 @media screen and (max-width: 1440px) {
     .blob {
-      max-width: 95%;
+        max-width: 95%;
     }
-    .Pres{
+    .Pres {
         z-index: 2;
         margin-top: 2%;
         width: 65%;
@@ -68,59 +67,52 @@
         flex-direction: column;
         justify-content: space-between;
         gap: 6%;
-        
     }
-    
-  }
+}
 
-
-  @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .blob {
-      max-width: 95%;
-      max-height: 80rem;
+        max-width: 95%;
+        max-height: 80rem;
     }
-    .Pres{
+    .Pres {
         z-index: 2;
         width: 75%;
         height: 50%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        
     }
-    .IconePres{
+    .IconePres {
         background: linear-gradient(140deg, #4993d7, #6931c5);
         padding: 3px;
         border-radius: 5px;
         width: 2rem;
     }
-    
-    .PresTitre{
+
+    .PresTitre {
         font-size: x-large;
         color: #4993d7;
         padding-bottom: 2%;
     }
-    
-    .PresText{
+
+    .PresText {
         /* text-align: justify; */
-        font-size:medium;
+        font-size: medium;
         color: white;
-        font-weight:100;
+        font-weight: 100;
     }
 
-    
-.PresArrangement{
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin: 1.25rem;
+    .PresArrangement {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin: 1.25rem;
+    }
 }
-    
-  }
 
-@media screen and (max-width: 768px){
-
-    .Présentation{
+@media screen and (max-width: 768px) {
+    .Présentation {
         margin-top: 13rem;
         display: flex;
         justify-content: center;
@@ -129,41 +121,88 @@
     .blob {
         max-width: 95%;
         max-height: 80rem;
-      }
-      .Pres{
-          z-index: 2;
-          width: 75%;
-          height: 50%;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          
-      }
-      .IconePres{
-          background: linear-gradient(140deg, #4993d7, #6931c5);
-          padding: 3px;
-          border-radius: 5px;
-          width: 1.5rem;
-      }
-      
-      .PresTitre{
-          font-size: larger;
-          color: #4993d7;
-          padding-bottom: 2%;
-      }
-      
-      .PresText{
-          /* text-align: justify; */
-          font-size:small;
-          color: white;
-          font-weight:100;
-      }
-  
-      
-  .PresArrangement{
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      margin: 1.25rem;
-  }
+    }
+    .Pres {
+        z-index: 2;
+        width: 75%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .IconePres {
+        background: linear-gradient(140deg, #4993d7, #6931c5);
+        padding: 3px;
+        border-radius: 5px;
+        width: 1.5rem;
+    }
+
+    .PresTitre {
+        font-size: larger;
+        color: #4993d7;
+        padding-bottom: 2%;
+    }
+
+    .PresText {
+        /* text-align: justify; */
+        font-size: small;
+        color: white;
+        font-weight: 100;
+    }
+
+    .PresArrangement {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .Présentation {
+        margin-top: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .blob {
+        max-width: 95%;
+        max-height: 90rem;
+        display: none;
+    }
+    .Pres {
+        z-index: 2;
+        width: 90%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .IconePres {
+        background: linear-gradient(140deg, #4993d7, #6931c5);
+        padding: 3px;
+        border-radius: 5px;
+        width: 1.5rem;
+    }
+
+    .PresTitre {
+        font-size: larger;
+        color: #4993d7;
+        padding-bottom: 2%;
+    }
+
+    .PresText {
+        /* text-align: justify; */
+        font-size: small;
+        color: white;
+        font-weight: 100;
+        width: 20rem;
+    }
+
+    .PresArrangement {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
 }

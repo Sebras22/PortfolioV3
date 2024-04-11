@@ -17,24 +17,18 @@ const Modal = ({ isOpen, close, titre, text }) => {
             <div className={`modalContainer ${isOpen ? "active" : "inactive"}`}>
                 <div className="modal">
                     <Carrousel images={images} />
-                    {Projects.map((el, id) => {
-                        return (
-                            <>
-                                <div className="ModalInfo" key={id}>
-                                    <div className="ModalDescription">
-                                        <h3>{titre}</h3>
-                                        <p>{text}</p>
-                                    </div>
-                                </div>
-                                <div className="Techno">
-                                    <img
-                                        src="./public/assets/React.png"
-                                        alt=""
-                                    />
-                                </div>
-                            </>
-                        );
-                    })}
+
+                    <>
+                        <div className="ModalInfo">
+                            <div className="ModalDescription">
+                                <h3>{titre}</h3>
+                                <p>{text}</p>
+                            </div>
+                        </div>
+                        <div className="Techno">
+                            <img src="./public/assets/React.png" alt="" />
+                        </div>
+                    </>
                 </div>
                 <div className="clickoutside" onClick={close} />
             </div>

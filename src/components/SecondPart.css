@@ -1,37 +1,35 @@
-.Skill{
+.Skill {
     position: relative;
     background-color: #282828;
 }
 
-
-.TitreSkill{
+.TitreSkill {
     color: #4993d7;
     display: flex;
     justify-content: center;
     font-size: xx-large;
 }
 
-.SkillsPlacement{
-
+.SkillsPlacement {
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
 }
 
-.Test{
+.Test {
     display: flex;
     justify-content: center;
     margin: 2rem;
 }
 
-.SkillTitle{
+.SkillTitle {
     width: 10%;
-    color:#4993d7;
-    font-size:1.40rem;
+    color: #4993d7;
+    font-size: 1.4rem;
 }
 
-.CardSkills{
+.CardSkills {
     display: flex;
     justify-content: space-between;
     text-align: start;
@@ -40,84 +38,81 @@
     align-items: center;
     gap: 10%;
     width: 55%;
-    background:  linear-gradient(91deg, #282828 0.56%, #3F3F3F 99.4%);;
+    background: linear-gradient(91deg, #282828 0.56%, #3f3f3f 99.4%);
     padding: 1%;
     padding-right: 2%;
     position: relative;
 }
 
-.IconeSection{
+.IconeSection {
     display: flex;
     justify-content: space-between;
 }
 
-.IconesSkills{
+.IconesSkills {
     width: 80%;
     height: auto;
 }
 
-.NomIcone{
+.NomIcone {
     opacity: 0;
     z-index: 1;
     color: white;
     padding: 2px;
     bottom: 92%;
     position: absolute;
-    cursor:default;
+    cursor: default;
     transition: all ease-in-out 0.5s;
 }
 
-
-.IconDiv:hover .NomIcone{
+.IconDiv:hover .NomIcone {
     opacity: 1;
 }
 
-.IconDiv{
+.IconDiv {
     position: relative;
     display: flex;
     justify-content: center;
 }
 
-.LogoSkill{
-    
-    bottom:60%;
+.LogoSkill {
+    bottom: 60%;
     left: 98%;
     position: absolute;
 }
 
-.ImgSkill{
-    background: linear-gradient(91deg, #4993D7 0.87%, #6931C5 99.72%);
+.ImgSkill {
+    background: linear-gradient(91deg, #4993d7 0.87%, #6931c5 99.72%);
     border-radius: 5px;
     width: 2.5rem;
     height: auto;
 }
 
 @media screen and (max-width: 1024px) {
-    
-.ImgSkill{
-    background: linear-gradient(91deg, #4993D7 0.87%, #6931C5 99.72%);
-    border-radius: 5px;
-    width: 2rem;
-    height: auto;
-}   
+    .ImgSkill {
+        background: linear-gradient(91deg, #4993d7 0.87%, #6931c5 99.72%);
+        border-radius: 5px;
+        width: 2rem;
+        height: auto;
+    }
 
-.CardSkills{
-    display: flex;
-    justify-content: space-between;
-    text-align: start;
-    border-radius: 5px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    align-items: center;
-    gap: 10%;
-    width: 65%;
-    background:  linear-gradient(91deg, #282828 0.56%, #3F3F3F 99.4%);;
-    padding: 1%;
-    padding-right: 3%;
-    position: relative;
+    .CardSkills {
+        display: flex;
+        justify-content: space-between;
+        text-align: start;
+        border-radius: 5px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        align-items: center;
+        gap: 10%;
+        width: 65%;
+        background: linear-gradient(91deg, #282828 0.56%, #3f3f3f 99.4%);
+        padding: 1%;
+        padding-right: 3%;
+        position: relative;
+    }
 }
-  }
-@media screen and (max-width:768px){
-    .CardSkills{
+@media screen and (max-width: 768px) {
+    .CardSkills {
         display: flex;
         justify-content: space-between;
         text-align: start;
@@ -126,13 +121,44 @@
         align-items: center;
         gap: 10%;
         width: 75%;
-        background:  linear-gradient(91deg, #282828 0.56%, #3F3F3F 99.4%);;
+        background: linear-gradient(91deg, #282828 0.56%, #3f3f3f 99.4%);
         padding: 1%;
         padding-right: 3%;
         position: relative;
     }
 
-    .SkillTitle{
+    .SkillTitle {
         font-size: large;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .TitreSkill {
+        font-size: large;
+    }
+    .SkillTitle {
+        font-size: 12px;
+        width: 3rem;
+    }
+
+    .CardSkills {
+        display: flex;
+        justify-content: space-between;
+        text-align: start;
+        border-radius: 5px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        align-items: center;
+        gap: 10%;
+        width: 95%;
+        background: linear-gradient(91deg, #282828 0.56%, #3f3f3f 99.4%);
+        padding: 1%;
+        padding-right: 3%;
+        position: relative;
+    }
+    .ImgSkill {
+        background: linear-gradient(91deg, #4993d7 0.87%, #6931c5 99.72%);
+        border-radius: 5px;
+        width: 1.25rem;
+        height: auto;
     }
 }

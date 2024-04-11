@@ -1,80 +1,129 @@
-.Navbar{
+.Navbar {
     /* max-width: 1400px; */
     margin: 30px;
     align-items: center;
     display: flex;
     text-align: center;
     justify-content: space-between;
-    backdrop-filter: blur(6px); 
+    backdrop-filter: blur(6px);
     /* background-color: aqua; */
     padding: 10px;
     border-radius: 10px;
     width: 95%;
     position: fixed;
     z-index: 4;
-
 }
 
-.NomSite{
+.NomSite {
     font-size: 2.5rem;
     font-weight: 900;
     color: white;
     cursor: default;
 }
 
-
-.NavbarGauche{
+.NavbarGauche {
     display: flex;
     justify-content: space-around;
     gap: 15rem;
 }
 
-.LienNavbar{
+.LienNavbar {
     color: white;
     font-size: 1.5rem;
     transition: ease-in-out 0.5s;
 }
 
-.LienNavbar:hover{
-    color: #4993D7;
+.LienNavbar:hover {
+    color: #4993d7;
 }
 
-.NavbarDroit{
+.NavbarDroit {
     display: flex;
     justify-content: space-around;
     gap: 5rem;
 }
 
-.Menu{
+.Menu {
     display: none;
 }
 
 @media screen and (max-width: 1024px) {
-    .NomSite{
+    .NomSite {
         font-size: 2rem;
     }
-    .NavbarGauche{
-        gap: 5rem
+    .NavbarGauche {
+        gap: 5rem;
     }
-    .NavbarDroit{
+    .NavbarDroit {
         gap: 2.5rem;
     }
-    .ImageRéseau{
+    .ImageRéseau {
         width: 2.5rem;
     }
 }
 
 @media screen and (max-width: 768px) {
-    
-    .NavbarGauche{
+    .NavbarGauche {
         display: flex;
         justify-content: space-between;
         gap: 3rem;
     }
-    .NavbarDroit{
+    .NavbarDroit {
         display: flex;
         justify-content: space-between;
         gap: 0.5rem;
     }
+}
+@media screen and (max-width: 425px) {
+    .Navbar {
+        /* max-width: 1400px; */
+        margin: 30px;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        backdrop-filter: blur(6px);
+        /* background-color: aqua; */
+        padding: 5px;
+        border-radius: 10px;
+        width: 85%;
+        position: fixed;
+        z-index: 4;
+    }
 
+    .NomSite {
+        font-size: 1.25rem;
+        font-weight: 900;
+        color: white;
+        cursor: default;
+    }
+
+    .NavbarGauche {
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+    }
+
+    .LienNavbar {
+        color: white;
+        font-size: 1rem;
+        transition: ease-in-out 0.5s;
+    }
+
+    .LienNavbar:hover {
+        color: #4993d7;
+    }
+
+    .NavbarDroit {
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+    }
+
+    .Menu {
+        display: none;
+    }
+    .ImageRéseau {
+        width: 1rem;
+    }
 }
