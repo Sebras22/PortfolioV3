@@ -22,7 +22,6 @@
     place-items: center;
 
     z-index: 4;
-
 }
 
 .modal {
@@ -53,19 +52,97 @@
     width: 100%;
 }
 
-
-.ModalInfo{
+.ModalInfo {
     height: 17rem;
 }
 
-.ModalDescription{
+.ModalDescription {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
 }
 
-.Techno{
+.Techno {
     display: flex;
-    justify-content:center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1025px) {
+    .modalContainer {
+        /* positionnement */
+        position: fixed;
+        inset: 0;
+        /* équivalent à
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    */
+
+        /* taile */
+        height: 100%;
+        width: 100%;
+
+        /* style */
+        background-color: rgba(0, 0, 0, 0.152);
+        backdrop-filter: blur(5px);
+
+        /* positionnement des enfants */
+        display: grid;
+        place-items: center;
+
+        z-index: 4;
+    }
+
+    .modal {
+        /* style */
+        background-color: #282828;
+        color: white;
+        padding: 15px;
+        z-index: 2;
+        border-radius: 5px;
+        max-width: 20rem;
+        min-width: 20rem;
+        max-height: 30rem;
+        min-height: 30rem;
+    }
+
+    .modalContainer.inactive {
+        /* cacher quand inactif */
+        display: none;
+    }
+
+    .clickoutside {
+        /* positionnement */
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        /* taile */
+        height: 100%;
+        width: 100%;
+    }
+
+    .ModalInfo {
+        height: 17rem;
+    }
+
+    .ModalDescription {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .Techno {
+        display: flex;
+        justify-content: center;
+    }
+    .technoimage {
+        width: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
 }

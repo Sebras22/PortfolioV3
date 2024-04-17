@@ -1,3 +1,9 @@
+import {
+    IconBrandDiscord,
+    IconBrandGithub,
+    IconBrandInstagram,
+    IconBrandLinkedin,
+} from "@tabler/icons-react";
 import "./Footer.css";
 
 function Footer() {
@@ -10,38 +16,32 @@ function Footer() {
                 </div>
                 <div>Get in touch</div>
                 <section className="FooterImg">
-                    <a href="https://github.com/Sebras22">
-                        <img
-                            className="imgfooter"
-                            src="./assets/githubfooter.png"
-                            alt="Github"
-                        />
-                    </a>
-                    <a href="">
-                        <img
-                            className="imgfooter"
-                            src="./assets/linkedinfooter.png"
-                            alt="Linkedin"
-                        />
-                    </a>
-                    <a href="">
-                        <img
-                            className="imgfooter"
-                            src="./assets/instagramfooter.png"
-                            alt="Instagram"
-                        />
-                    </a>
-                    <a href="">
-                        <img
-                            className="imgfooter"
-                            src="./assets/discord.png"
-                            alt="Discord"
-                        />
-                    </a>
+                    <div>
+                        <a href="https://github.com/Sebras22">
+                            <IconBrandGithub className="imgfooter" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <IconBrandLinkedin className="imgfooter" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <IconBrandInstagram className="imgfooter" />
+                        </a>
+                    </div>
+                    <div className="discordtruc">
+                        <a href="">
+                            {/* <div className="didi">sebras_</div> */}
+                            <IconBrandDiscord className="imgfooterdiscord" />
+                        </a>
+                    </div>
                 </section>
-                <div className="Icons8">
-                    Icons by <a href="https://icons8.com/icons">Icons8</a>
-                </div>
+                <div className="Icons8">Copyright 2018-2023 Tabler</div>
+            </div>
+            <div className="Endbalise">
+                <p>{"<Seb />"}</p>
             </div>
         </>
     );

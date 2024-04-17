@@ -1,6 +1,7 @@
 .Header {
     text-align: center;
     padding: 2rem;
+    padding-top: 8rem;
 }
 
 .TexteNom {
@@ -79,10 +80,11 @@ button {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .Header {
         text-align: center;
-        padding: 2rem;
+        padding: 1rem;
+        padding-top: 3rem;
     }
 
     .TexteNom {
@@ -99,10 +101,13 @@ button {
 
     .TextePrésentation {
         display: flex;
+        justify-content: center;
         flex-direction: column;
         text-align: center;
+        align-items: center;
         font-size: 1rem;
         color: white;
+        /* width: 17rem; */
     }
 
     button {

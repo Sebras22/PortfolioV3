@@ -26,7 +26,11 @@ const Modal = ({ isOpen, close, titre, text }) => {
                             </div>
                         </div>
                         <div className="Techno">
-                            <img src="./public/assets/React.png" alt="" />
+                            <img
+                                src="./public/assets/React.png"
+                                className="technoimage"
+                                alt=""
+                            />
                         </div>
                     </>
                 </div>

@@ -1,39 +1,51 @@
 .carousel {
     position: relative;
     width: 100%;
-  }
-  
-  .image {
+}
+
+.image {
     max-width: 30rem;
     min-width: 30rem;
     max-height: 20rem;
     min-height: 20rem;
     height: auto;
-    border-radius:8px;
-  }
-  
-  .arrow {
+    border-radius: 8px;
+}
+
+.arrow {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.0);
+    background: rgba(0, 0, 0, 0);
     color: white;
     border: none;
     padding: 1px;
     cursor: pointer;
     width: 2rem;
-  }
+}
 
-  
-  .controleur{
+.controleur {
     width: 2rem;
-  }
-  
-  .arrow:first-child {
+}
+
+.arrow:first-child {
     left: 1px;
-  }
-  
-  .arrow:last-child {
+}
+
+.arrow:last-child {
     right: 1px;
-  }
-  
+}
+
+@media screen and (max-width: 1025px) {
+    .image {
+        max-width: 20rem;
+        min-width: 20rem;
+        max-height: 10rem;
+        min-height: 10rem;
+        height: auto;
+        border-radius: 8px;
+    }
+    .controleur {
+        width: 1.5rem;
+    }
+}

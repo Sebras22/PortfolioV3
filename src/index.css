@@ -1,13 +1,12 @@
 :root {
-  background-color: #161616;
-  font-family: 'Josefin Sans', sans-serif;
-
+    background-color: #161616;
+    font-family: "Josefin Sans", sans-serif;
+    scroll-behavior: smooth;
 }
-body{
-  margin: 0px;
-}
-
-a{
-  text-decoration: none;
+body {
+    margin: 0px;
 }
 
+a {
+    text-decoration: none;
+}

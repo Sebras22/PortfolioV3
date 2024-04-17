@@ -1,5 +1,23 @@
-.Navbar {
+.Navbarwrapper {
     /* max-width: 1400px; */
+    /* margin: 30px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    backdrop-filter: blur(6px);
+    /* background-color: aqua; */
+    /* padding: 10px;
+    border-radius: 10px;
+    width: 95%;
+    position: fixed;
+    z-index: 4; */
+    max-width: 1440px;
+    margin: auto;
+}
+
+.Navbar {
+    max-width: 1400px;
     margin: 30px;
     align-items: center;
     display: flex;
@@ -19,6 +37,12 @@
     font-weight: 900;
     color: white;
     cursor: default;
+}
+
+.ImageRéseau {
+    color: white;
+    width: 30px;
+    height: 30px;
 }
 
 .NavbarGauche {
@@ -74,7 +98,7 @@
         gap: 0.5rem;
     }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .Navbar {
         /* max-width: 1400px; */
         margin: 30px;

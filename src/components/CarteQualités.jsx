@@ -9,7 +9,7 @@ function CarteQualités() {
                     return (
                         <section className="Allcarte" id={el.id} key={id}>
                             <div className="IcôneQualités">
-                                <img className="Icone" src={el.src} alt="" />
+                                {<el.src className="Icone" />}
                             </div>
                             <section className="Carte">
                                 <div className="Qualité">{el.name}</div>

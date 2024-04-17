@@ -1,6 +1,6 @@
 .bodyfirstpart {
     background-color: #282828;
-    height: 65rem;
+    height: 50rem;
 }
 
 .VagueBot {
@@ -16,6 +16,7 @@
 
 .ImageDéco {
     position: relative;
+    max-width: 1980px;
 }
 
 .VagueTop {
@@ -42,9 +43,9 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .bodyfirstpart {
-        height: 60rem;
+        height: 63rem;
     }
     .Game {
         margin-top: 2rem;

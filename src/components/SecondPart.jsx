@@ -4,7 +4,7 @@ import { Skills } from "../Table/Array.js";
 function SecondPart() {
     return (
         <>
-            <section className="Skill">
+            <section className="Skill" id="Skills">
                 <div className="TitreSkill">My Skills</div>
                 <div className="SkillsPlacement">
                     {Skills.map((el, id) => {
@@ -36,11 +36,7 @@ function SecondPart() {
                                             );
                                         })}
                                         <div className="LogoSkill">
-                                            <img
-                                                className="ImgSkill"
-                                                src={el.Icone}
-                                                alt=""
-                                            />
+                                            {<el.Icone className="ImgSkill" />}
                                         </div>
                                     </div>
                                 </section>

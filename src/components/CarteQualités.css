@@ -29,9 +29,11 @@
     margin-top: -4%;
     left: -4%;
     position: absolute;
-    width: 3.5rem;
     border-radius: 5px;
-    padding: 1px;
+    width: 35px;
+    padding: 3px;
+    height: 35px;
+    color: white;
     background: linear-gradient(140deg, #4993d7, #6931c5);
 }
 .Qualité {

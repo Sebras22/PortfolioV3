@@ -1,18 +1,29 @@
+import {
+    IconCode,
+    IconFrame,
+    IconListCheck,
+    IconPalette,
+    IconReportSearch,
+    IconSettings,
+    IconTools,
+    IconUser,
+} from "@tabler/icons-react";
+
 export const Card = [
     {
-        src: "/assets/Ampoule.png",
+        src: IconPalette,
         name: "Creative",
         text: "Creation and design are very important to me, the first impression of a project is all about the style, so it needs to look perfect. ",
         id: "test1",
     },
     {
-        src: "/assets/Orga.png",
+        src: IconReportSearch,
         name: "Organization",
         text: "In my projects, organization is a main point. For an understable code I have to make it simple and clear for everyone, even for someone who never saw a line of code.",
         id: "test2",
     },
     {
-        src: "/assets/PC.png",
+        src: IconSettings,
         name: "Hardworking",
         text: "Because I'm a very stubborn person, I hate to not understand an error or a function. So even if I have to take more time, I need to understand and learn everything.",
         id: "test3",
@@ -21,21 +32,21 @@ export const Card = [
 
 export const Pres = [
     {
-        src: "/assets/Profil.png",
+        src: IconUser,
         title: "Who am I ?",
-        text: "Lorem ipsum dolor sit amet. Quo omnis harum ut sapiente voluptas est galisum eligendi et tempora molestias ad dignissimos galisum eos rerum similique? Et sint rerum ut odio natus et deleniti modi ex consequatur perspiciatis aut velit dolorum in nemo amet. Lorem ipsum dolor sit amet. Quo omnis harum ut sapiente voluptas est galisum eligendi et tempora molestias ad dignissimos galisum eos rerum similique? Et sint rerum ut odio natus et deleniti modi ex consequatur perspiciatis aut velit dolorum in nemo amet.",
+        text: "Hey there, I'm Seb, a student based in Paris, currently diving deep into the world of full-stack development at Efrei. My focus? Web development and design. I'm all about pushing boundaries, constantly embarking on projects that introduce me to new frameworks, methods, and technologies. For me, it's not just about the development process; I'm equally passionate about the conception, design, and architecture construction of each project. And hey, my curiosity doesn't stop at web development—I'm also keen on exploring AI and the world of video games. There's always something new to learn, and I'm here for it all!",
     },
     {
-        src: "/assets/Do.png",
+        src: IconListCheck,
         title: "What can I do ?",
-        text: "Lorem ipsum dolor sit amet. Quo omnis harum ut sapiente voluptas est galisum eligendi et tempora molestias ad dignissimos galisum eos rerum similique? Et sint rerum ut odio natus et deleniti modi ex consequatur perspiciatis aut velit dolorum in nemo amet. Lorem ipsum dolor sit amet. Quo omnis harum ut sapiente voluptas est galisum eligendi et tempora molestias ad dignissimos galisum eos rerum similique? Et sint rerum ut odio natus et deleniti modi ex consequatur perspiciatis aut velit dolorum in nemo amet.",
+        text: "My range of soft & hard skills is always evolving with every experiences and projects. I'm someone very patient and calm, curious, and maybe a little bit stubborn, working alone or in groupe isn't an issue for me, I have a good adaptation to my environment. My hardskills are various, for example with UI and UX, I took the habit to look on different platforms the styles, the new ways to make a website or an app more liekable; also when I do my designs for my projects I always think about the way I will do it, and I make a simple design but efficient. In devlopement I'm used to work with Visual Studio Code, using frameworks like ReactJS principaly. For various projects I used things like Pocketbase as an online database, easier to implement and to use.",
     },
 ];
 
 export const Skills = [
     {
         Title: "Languages",
-        Icone: "/assets/Code.png",
+        Icone: IconCode,
         truc: [
             {
                 src: "/assets/JS.png",
@@ -61,7 +72,7 @@ export const Skills = [
     },
     {
         Title: "Tools",
-        Icone: "/assets/Tools.png",
+        Icone: IconTools,
         truc: [
             {
                 src: "/assets/VSCode.png",
@@ -87,7 +98,7 @@ export const Skills = [
     },
     {
         Title: "Frameworks",
-        Icone: "/assets/Frameworks.png",
+        Icone: IconFrame,
         truc: [
             {
                 src: "/assets/React.png",

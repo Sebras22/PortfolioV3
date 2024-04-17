@@ -3,7 +3,7 @@ import "./Header.css";
 function Header() {
     return (
         <>
-            <section className="Header">
+            <section className="Header" id="Accueil">
                 <div className="TexteNom">
                     Hi my name is{" "}
                     <div id="flip">

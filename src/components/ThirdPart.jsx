@@ -26,64 +26,72 @@ function ThirdPart() {
 
     return (
         <>
-            <section className="ThirdPart">
-                <div className="TitreThirdPart">
-                    My web Developments projects & my designs
-                </div>
-                <section className="ArrangementProjects">
-                    <section className="Projects">
-                        {Projects.map((el, id) => {
-                            return (
-                                <section key={id}>
-                                    <section className="CardProjects">
-                                        <img
-                                            className="imgProject"
-                                            src={el.img}
-                                            alt=""
-                                        />
-                                        <section className="InfoProjects">
-                                            <div className="TitreProjects">
-                                                {el.titre}
-                                            </div>
-                                            <div className="projectdesc">
-                                                {el.text}
-                                            </div>
-                                            <div>
-                                                {el.tools.map((tool, index) => (
-                                                    <div key={index}>
-                                                        <img
-                                                            className="toolinfo"
-                                                            src={tool.src}
-                                                            alt=""
-                                                        />
-                                                        <button
-                                                            className="BoutonModal"
-                                                            onClick={() =>
-                                                                openModal(id)
-                                                            }
-                                                        >
-                                                            Modal
-                                                        </button>
-                                                    </div>
-                                                ))}
-                                            </div>
-                                            <div></div>
+            <section className="ThirdPart" id="ThirdPart">
+                <div className="ArrThird">
+                    <div className="TitreThirdPart">
+                        My web Developments projects & my designs
+                    </div>
+                    <section className="ArrangementProjects">
+                        <section className="Projects">
+                            {Projects.map((el, id) => {
+                                return (
+                                    <section key={id}>
+                                        <section className="CardProjects">
+                                            <img
+                                                className="imgProject"
+                                                src={el.img}
+                                                alt=""
+                                            />
+                                            <section className="InfoProjects">
+                                                <div className="TitreProjects">
+                                                    {el.titre}
+                                                </div>
+                                                <div className="projectdesc">
+                                                    {el.text}
+                                                </div>
+                                                <div>
+                                                    {el.tools.map(
+                                                        (tool, index) => (
+                                                            <div key={index}>
+                                                                <img
+                                                                    className="toolinfo"
+                                                                    src={
+                                                                        tool.src
+                                                                    }
+                                                                    alt=""
+                                                                />
+                                                                <button
+                                                                    className="BoutonModal"
+                                                                    onClick={() =>
+                                                                        openModal(
+                                                                            id
+                                                                        )
+                                                                    }
+                                                                >
+                                                                    Modal
+                                                                </button>
+                                                            </div>
+                                                        )
+                                                    )}
+                                                </div>
+                                                <div></div>
+                                            </section>
                                         </section>
+                                        {/* Afficher le modal correspondant si ouvert */}
+                                        {isOpen[id] && (
+                                            <Modal
+                                                isOpen={isOpen[id]}
+                                                close={() => closeModal(id)}
+                                                titre={el.modal?.titreModal}
+                                                text={el.modal?.textModal}
+                                            />
+                                        )}
                                     </section>
-                                    {/* Afficher le modal correspondant si ouvert */}
-                                    {isOpen[id] && (
-                                        <Modal
-                                            isOpen={isOpen[id]}
-                                            close={() => closeModal(id)}
-                                            titre={el.modal?.titreModal}
-                                            text={el.modal?.textModal}
-                                        />
-                                    )}
-                                </section>
-                            );
-                        })}
+                                );
+                            })}
+                        </section>
                     </section>
-                </section>
+                </div>
             </section>
             <div className="VagueBot">
                 <Wave />

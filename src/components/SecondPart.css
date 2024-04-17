@@ -1,6 +1,7 @@
 .Skill {
     position: relative;
     background-color: #282828;
+    padding-top: 8rem;
 }
 
 .TitreSkill {
@@ -85,7 +86,9 @@
     background: linear-gradient(91deg, #4993d7 0.87%, #6931c5 99.72%);
     border-radius: 5px;
     width: 2.5rem;
+    padding: 3px;
     height: auto;
+    color: white;
 }
 
 @media screen and (max-width: 1024px) {

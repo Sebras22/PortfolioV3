@@ -4,11 +4,22 @@
     padding-top: 10rem;
 }
 
+.ArrThird {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
 .TitreThirdPart {
     color: #4993d7;
     display: flex;
     justify-content: center;
     font-size: xx-large;
+    width: 100%;
 }
 
 .ArrangementProjects {
@@ -130,7 +141,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .ThirdPart {
         background-color: #282828;
         z-index: 1;

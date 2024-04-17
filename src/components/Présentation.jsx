@@ -1,10 +1,11 @@
 import "./Présentation.css";
 import { Pres } from "../Table/Array.js";
+import { IconUser } from "@tabler/icons-react";
 
 function Présentation() {
     return (
         <>
-            <section className="Présentation">
+            <section className="Présentation" id="Presentation">
                 <img className="blob" src="./public/assets/blob.png" alt="" />
 
                 <div className="Pres">
@@ -12,13 +13,7 @@ function Présentation() {
                         return (
                             <>
                                 <section className="PresArrangement" key={id}>
-                                    <div>
-                                        <img
-                                            className="IconePres"
-                                            src={el.src}
-                                            alt=""
-                                        />
-                                    </div>
+                                    <div>{<el.src className="IconPres" />}</div>
                                     <section className="ZoneText">
                                         <div>
                                             <div className="PresTitre">
