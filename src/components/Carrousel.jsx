@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import "./Carrousel.css";
 
-const Carrousel = ({ images }) => {
+const Carrousel = ({ image }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     const goToPrevious = () => {
         setCurrentImageIndex((prevIndex) =>
-            prevIndex === 0 ? images.length - 1 : prevIndex - 1
+            prevIndex === 0 ? image.length - 1 : prevIndex - 1
         );
     };
 
     const goToNext = () => {
         setCurrentImageIndex((prevIndex) =>
-            prevIndex === images.length - 1 ? 0 : prevIndex + 1
+            prevIndex === image.length - 1 ? 0 : prevIndex + 1
         );
     };
 
@@ -27,7 +27,7 @@ const Carrousel = ({ images }) => {
             </button>
             <img
                 className="image"
-                src={images[currentImageIndex]}
+                src={image[currentImageIndex]}
                 alt={`Image ${currentImageIndex}`}
             />
             <button className="arrow" onClick={goToNext}>

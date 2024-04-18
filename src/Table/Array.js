@@ -138,6 +138,11 @@ export const Projects = [
         modal: {
             titreModal: "esfoihszefhszkef",
             textModal: "sefdsefsefsefsefsef",
+            imgModal: [
+                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+                "https://t3.ftcdn.net/jpg/06/36/66/82/360_F_636668247_DFnN5PoYd6TggxOc8blhQks4eFGjhdoB.jpg",
+                "https://t3.ftcdn.net/jpg/06/59/78/28/360_F_659782827_94nzk28rXxw3R1OGyLVWo6f627kYMhkb.jpg",
+            ],
         },
     },
     {

@@ -84,6 +84,7 @@ function ThirdPart() {
                                                 close={() => closeModal(id)}
                                                 titre={el.modal?.titreModal}
                                                 text={el.modal?.textModal}
+                                                image={el.modal?.imgModal}
                                             />
                                         )}
                                     </section>
