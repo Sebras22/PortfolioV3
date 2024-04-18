@@ -9,7 +9,7 @@ import "./Footer.css";
 function Footer() {
     return (
         <>
-            <div className="Footer">
+            <div className="Footer" id="Footer">
                 <div className="Signature">
                     Designed & Developed by{" "}
                     <a href="https://github.com/Sebras22">Seb</a>

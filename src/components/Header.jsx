@@ -22,9 +22,9 @@ function Header() {
                     I’m a french student from Efrei Paris,
                     <span>I’m currently studying in web development.</span>
                 </div>
-                <button className="BoutonContact" href="">
-                    Contact
-                </button>
+                <a href="#Footer">
+                    <button className="BoutonContact">Contact</button>
+                </a>
             </section>
         </>
     );
