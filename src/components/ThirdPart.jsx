@@ -52,29 +52,35 @@ function ThirdPart() {
                                                 <div>
                                                     {el.tools.map(
                                                         (tool, index) => (
-                                                            <div key={index}>
-                                                                <img
-                                                                    className="toolinfo"
-                                                                    src={
-                                                                        tool.src
-                                                                    }
-                                                                    alt=""
-                                                                />
-                                                                <button
-                                                                    className="BoutonModal"
-                                                                    onClick={() =>
-                                                                        openModal(
-                                                                            id
-                                                                        )
-                                                                    }
-                                                                >
-                                                                    Modal
-                                                                </button>
+                                                            <div
+                                                                className="toolplacementhover"
+                                                                key={index}
+                                                            >
+                                                                <div>
+                                                                    <img
+                                                                        className="toolinfo"
+                                                                        src={
+                                                                            tool.src
+                                                                        }
+                                                                        alt=""
+                                                                    />
+                                                                </div>
+                                                                <div>
+                                                                    <button
+                                                                        className="BoutonModal"
+                                                                        onClick={() =>
+                                                                            openModal(
+                                                                                id
+                                                                            )
+                                                                        }
+                                                                    >
+                                                                        Modal
+                                                                    </button>
+                                                                </div>
                                                             </div>
                                                         )
                                                     )}
                                                 </div>
-                                                <div></div>
                                             </section>
                                         </section>
                                         {/* Afficher le modal correspondant si ouvert */}

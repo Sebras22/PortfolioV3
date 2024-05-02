@@ -12,9 +12,9 @@ function Présentation() {
                     {Pres.map((el, id) => {
                         return (
                             <>
-                                <section className="PresArrangement" key={id}>
+                                <section className="PresArrangement">
                                     <div>{<el.src className="IconPres" />}</div>
-                                    <section className="ZoneText">
+                                    <section className="ZoneText" key={id}>
                                         <div>
                                             <div className="PresTitre">
                                                 {el.title}

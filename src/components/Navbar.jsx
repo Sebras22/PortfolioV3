@@ -27,7 +27,7 @@ function Navbar() {
                         <a href="https://github.com/Sebras22">
                             <IconBrandGithub className="ImageRéseau" />
                         </a>
-                        <a href="">
+                        <a href="https://www.instagram.com/sebras_22_/">
                             <IconBrandInstagram className="ImageRéseau" />
                         </a>
                         <a href="">
