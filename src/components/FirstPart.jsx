@@ -6,7 +6,7 @@ import Wave from "./wave.jsx";
 function FirstPart() {
     return (
         <>
-            <div className="test">
+            <div>
                 <Wave />
                 <section className="bodyfirstpart">
                     <section>
@@ -16,7 +16,6 @@ function FirstPart() {
                 </section>
                 <section className="ImageDéco">
                     <div>
-                        {/* <img src="./assets/Gamer.jpg" className="Game" alt="" /> */}
                         <div className="VagueSurImage">
                             <div className="VagueBot">
                                 <Wave />

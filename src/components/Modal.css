@@ -101,6 +101,7 @@
         color: white;
         padding: 15px;
         z-index: 2;
+        position: absolute;
         border-radius: 5px;
         max-width: 20rem;
         min-width: 20rem;

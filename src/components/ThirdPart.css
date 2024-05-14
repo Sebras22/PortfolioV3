@@ -33,7 +33,6 @@
 
 .CardProjects {
     position: relative;
-    width: 35rem;
     height: auto;
     text-align: center;
     padding: 2rem;
@@ -86,12 +85,9 @@
     font-size: x-large;
 }
 
-
-
 @media screen and (max-width: 1024px) {
     .CardProjects {
         position: relative;
-        width: 25rem;
         height: auto;
         text-align: center;
         padding: 2rem;
@@ -149,7 +145,7 @@
         z-index: 1;
         padding-top: 5rem;
     }
-    .TitreThirdPart{
+    .TitreThirdPart {
         display: flex;
         text-align: center;
         width: 17rem;
@@ -160,7 +156,6 @@
     }
     .CardProjects {
         position: relative;
-        width: 18rem;
         height: auto;
         text-align: center;
         padding: 2rem;

@@ -9,7 +9,7 @@ function wave() {
                     className="waves"
                     xmlns="http://www.w3.org/2000/svg"
                     xmlnsXlink="http://www.w3.org/1999/xlink"
-                    viewBox="0 24 150 28"
+                    viewBox="0 24 100 28"
                     preserveAspectRatio="none"
                     shapeRendering="auto"
                 >
