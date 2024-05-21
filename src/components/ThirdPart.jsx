@@ -73,12 +73,11 @@ function ThirdPart() {
                                                             openModal(id)
                                                         }
                                                     >
-                                                        Modal
+                                                        See more
                                                     </button>
                                                 </div>
                                             </section>
                                         </section>
-                                        {/* Afficher le modal correspondant si ouvert */}
                                         {isOpen[id] && (
                                             <Modal
                                                 isOpen={isOpen[id]}
