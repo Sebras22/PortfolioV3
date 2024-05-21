@@ -6,8 +6,8 @@
 .image {
     max-width: 30rem;
     min-width: 30rem;
-    max-height: 20rem;
-    min-height: 20rem;
+    max-height: 15rem;
+    min-height: 15rem;
     height: auto;
     border-radius: 8px;
 }

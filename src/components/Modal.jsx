@@ -3,7 +3,7 @@ import "./Modal.css"; // Importez votre fichier CSS pour styliser le modal
 import Carrousel from "./Carrousel";
 import { Projects } from "../Table/Array.js";
 
-const Modal = ({ isOpen, close, titre, text, image }) => {
+const Modal = ({ isOpen, close, titre, text, image, techno }) => {
     return (
         <>
             {/* <button onClick={open}>OPEN</button> */}
@@ -19,11 +19,7 @@ const Modal = ({ isOpen, close, titre, text, image }) => {
                             </div>
                         </div>
                         <div className="Techno">
-                            <img
-                                src="./public/assets/React.png"
-                                className="technoimage"
-                                alt=""
-                            />
+                            <img src={techno} className="technoimage" alt="" />
                         </div>
                     </>
                 </div>

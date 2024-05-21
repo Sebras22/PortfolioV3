@@ -49,13 +49,10 @@ function ThirdPart() {
                                                 <div className="projectdesc">
                                                     {el.text}
                                                 </div>
-                                                <div>
+                                                <div className="toolplacementhover">
                                                     {el.tools.map(
                                                         (tool, index) => (
-                                                            <div
-                                                                className="toolplacementhover"
-                                                                key={index}
-                                                            >
+                                                            <div key={index}>
                                                                 <div>
                                                                     <img
                                                                         className="toolinfo"
@@ -65,21 +62,19 @@ function ThirdPart() {
                                                                         alt=""
                                                                     />
                                                                 </div>
-                                                                <div>
-                                                                    <button
-                                                                        className="BoutonModal"
-                                                                        onClick={() =>
-                                                                            openModal(
-                                                                                id
-                                                                            )
-                                                                        }
-                                                                    >
-                                                                        Modal
-                                                                    </button>
-                                                                </div>
                                                             </div>
                                                         )
                                                     )}
+                                                </div>
+                                                <div>
+                                                    <button
+                                                        className="BoutonModal"
+                                                        onClick={() =>
+                                                            openModal(id)
+                                                        }
+                                                    >
+                                                        Modal
+                                                    </button>
                                                 </div>
                                             </section>
                                         </section>
@@ -91,6 +86,7 @@ function ThirdPart() {
                                                 titre={el.modal?.titreModal}
                                                 text={el.modal?.textModal}
                                                 image={el.modal?.imgModal}
+                                                techno={el.modal?.technoModal}
                                             />
                                         )}
                                     </section>

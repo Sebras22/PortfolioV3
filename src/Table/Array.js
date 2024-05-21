@@ -126,81 +126,95 @@ export const Skills = [
 
 export const Projects = [
     {
-        img: "/assets/Gamer.jpg",
-        titre: "TEST",
-        text: "sdlf,zef zefzknfzkenfzlfkenzlefzpeflzmefl,madcs;dfn alezdfapefaefk eaanfafkeaefkleafkkefkf akfndaoefkaeifj aefakefaefoefa  keaf ",
+        img: "/assets/Meteo.PNG",
+        titre: "Site Méteo",
+        text: "Meteorological site allowing you to know the weather by entering the desired location in the search bar.",
         tools: [
             {
-                src: "/assets/Symfony.png",
-                text: "Symfony",
+                src: "/assets/React.png",
+                text: "React",
+            },
+            {
+                src: "/assets/CSS3.png",
+                text: "CSS3",
             },
         ],
         modal: {
-            titreModal: "esfoihszefhszkef",
-            textModal: "sefdsefsefsefsefsef",
+            titreModal: "Weather Site",
+            textModal: "This weather site is a recent project created using the Openmeteo API, free and open to all. Certain points remain to be reviewed on this site, such as another design perhaps a little less dark or additions of features.",
             imgModal: [
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
-                "https://t3.ftcdn.net/jpg/06/36/66/82/360_F_636668247_DFnN5PoYd6TggxOc8blhQks4eFGjhdoB.jpg",
-                "https://t3.ftcdn.net/jpg/06/59/78/28/360_F_659782827_94nzk28rXxw3R1OGyLVWo6f627kYMhkb.jpg",
+                "/assets/meteo2.PNG",
+                "/assets/meteo3.PNG",
+                "/assets/meteo4.PNG",
             ],
+            technoModal:"/assets/React.png"
         },
     },
     {
-        img: "/assets/Gamer.jpg",
-        titre: "TEFVVVVVVVVVVVVVVST",
-        text: "sdlf,zef zefzknfzkenfzlfkenzlefzpeflzmefl,madcs;dfn alezdfapefaefk eaanfafkeaefkleafkkefkf akfndaoefkaeifj aefakefaefoefa  keaf ",
+        img: "/assets/SitePerso.PNG",
+        titre: "Personal Website",
+        text: " My website allowing me to introduce myself and show what I can do and my various knowledge. ",
         tools: [
             {
-                src: "/assets/Symfony.png",
-                text: "Symfony",
+                src: "/assets/React.png",
+                text: "React",
+            },
+            {
+                src: "/assets/CSS3.png",
+                text: "CSS3",
             },
         ],
         modal: {
-            titreModal: "esfoihszefhszkef",
-            textModal: "sefdsefsefsefsefsef",
+            titreModal: "Personal Website",
+            textModal: "This website is the most recent project I have created. From conception to development to design, everything was done by me. Creating a site in my image presenting what I like and what I know how to do was really exciting.",
             imgModal: [
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
-                "https://t3.ftcdn.net/jpg/06/36/66/82/360_F_636668247_DFnN5PoYd6TggxOc8blhQks4eFGjhdoB.jpg",
-                "https://t3.ftcdn.net/jpg/06/59/78/28/360_F_659782827_94nzk28rXxw3R1OGyLVWo6f627kYMhkb.jpg",
+                "/assets/SitePerso.PNG",
+    
             ],
+            technoModal:"/assets/React.png"
         },
     },    {
-        img: "/assets/Gamer.jpg",
-        titre: "QZDQZDQZDQZD",
-        text: "sdlf,zef zefzknfzkenfzlfkenzlefzpeflzmefl,madcs;dfn alezdfapefaefk eaanfafkeaefkleafkkefkf akfndaoefkaeifj aefakefaefoefa  keaf ",
+        img: "/assets/designavocat.PNG",
+        titre: "Website Design",
+        text: "A simple multi-page design for a mock legal consultancy business.",
         tools: [
             {
-                src: "/assets/Symfony.png",
-                text: "Symfony",
+                src: "/assets/figma.png",
+                text: "figma",
             },
         ],
         modal: {
-            titreModal: "esfoihszefhszkef",
-            textModal: "sefdsefsefsefsefsef",
+            titreModal: "Website Design",
+            textModal: "This design is really simple, with some nice features too. It has a lot of different categories and pages so I needed to make it clear for any user in terms of navigation and comprehension of the website. ",
             imgModal: [
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
-                "https://t3.ftcdn.net/jpg/06/36/66/82/360_F_636668247_DFnN5PoYd6TggxOc8blhQks4eFGjhdoB.jpg",
-                "https://t3.ftcdn.net/jpg/06/59/78/28/360_F_659782827_94nzk28rXxw3R1OGyLVWo6f627kYMhkb.jpg",
+                "/assets/avo.PNG",
+                "/assets/avoc.PNG",
+                "/assets/avoca.PNG",
             ],
+            technoModal: "/assets/figma.png"
         },
     },    {
-        img: "/assets/Gamer.jpg",
-        titre: "TEAAAAAAAAAAAAST",
-        text: "sdlf,zef zefzknfzkenfzlfkenzlefzpeflzmefl,madcs;dfn alezdfapefaefk eaanfafkeaefkleafkkefkf akfndaoefkaeifj aefakefaefoefa  keaf ",
+        img: "/assets/designelec.PNG",
+        titre: "Website Design",
+        text: "A simple multi-page design for a fake sound system and electronics company in general.",
         tools: [
             {
-                src: "/assets/Symfony.png",
-                text: "Symfony",
+                src: "/assets/figma.png",
+                text: "figma",
             },
         ],
         modal: {
-            titreModal: "esfoihszefhszkef",
-            textModal: "sefdsefsefsefsefsef",
+            titreModal: "Website Design",
+            textModal: "When I created this design I tried to make it special. With this unusual background and style we can easily say that it's not an ordinary design. I also wanted to add some nice features and ideas of designs that I saw on other designs/websites.  ",
             imgModal: [
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
-                "https://t3.ftcdn.net/jpg/06/36/66/82/360_F_636668247_DFnN5PoYd6TggxOc8blhQks4eFGjhdoB.jpg",
-                "https://t3.ftcdn.net/jpg/06/59/78/28/360_F_659782827_94nzk28rXxw3R1OGyLVWo6f627kYMhkb.jpg",
+                "/assets/elec.PNG",
+                "/assets/elece.PNG",
+                "/assets/elecee.PNG",
+            
             ],
+            technoModal: "/assets/figma.png"
         },
     },
+    
+
 ];

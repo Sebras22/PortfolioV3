@@ -1,35 +1,21 @@
 .modalContainer {
-    /* positionnement */
     position: fixed;
     inset: 0;
-    /* équivalent à
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    */
-
-    /* taile */
     height: 100%;
     width: 100%;
-
-    /* style */
     background-color: rgba(0, 0, 0, 0.152);
     backdrop-filter: blur(5px);
-
-    /* positionnement des enfants */
     display: grid;
     place-items: center;
 
-    z-index: 4;
+    z-index: 1;
 }
 
 .modal {
-    /* style */
     background-color: #282828;
     color: white;
     padding: 15px;
-    z-index: 2;
+    z-index: 10;
     border-radius: 5px;
     max-width: 30rem;
     min-width: 30rem;
@@ -38,16 +24,13 @@
 }
 
 .modalContainer.inactive {
-    /* cacher quand inactif */
     display: none;
 }
 
 .clickoutside {
-    /* positionnement */
     position: absolute;
     inset: 0;
     z-index: 1;
-    /* taile */
     height: 100%;
     width: 100%;
 }
@@ -70,33 +53,18 @@
 
 @media screen and (max-width: 1025px) {
     .modalContainer {
-        /* positionnement */
         position: fixed;
         inset: 0;
-        /* équivalent à
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    */
-
-        /* taile */
         height: 100%;
         width: 100%;
-
-        /* style */
         background-color: rgba(0, 0, 0, 0.152);
         backdrop-filter: blur(5px);
-
-        /* positionnement des enfants */
         display: grid;
         place-items: center;
-
         z-index: 4;
     }
 
     .modal {
-        /* style */
         background-color: #282828;
         color: white;
         padding: 15px;
@@ -110,16 +78,13 @@
     }
 
     .modalContainer.inactive {
-        /* cacher quand inactif */
         display: none;
     }
 
     .clickoutside {
-        /* positionnement */
         position: absolute;
         inset: 0;
         z-index: 1;
-        /* taile */
         height: 100%;
         width: 100%;
     }
@@ -146,4 +111,61 @@
 }
 
 @media screen and (max-width: 426px) {
+
+    .modalContainer {
+        position: fixed;
+        inset: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.152);
+        backdrop-filter: blur(5px);
+        display: grid;
+        place-items: center;
+        z-index: 10;
+    }
+
+    .modal {
+        background-color: #282828;
+        color: white;
+        padding: 15px;
+        z-index: 10;
+        position: absolute;
+        border-radius: 5px;
+        max-width: 20rem;
+        min-width: 20rem;
+        max-height: 20rem;
+        min-height: 20rem;
+    }
+
+    .modalContainer.inactive {
+        display: none;
+    }
+
+    .clickoutside {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+    }
+
+    .ModalInfo {
+        height: 8rem;
+    }
+
+    .ModalDescription {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .Techno {
+        display: flex;
+        justify-content: center;
+    }
+    .technoimage {
+        width: 2rem;
+    }
 }

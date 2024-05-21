@@ -14,6 +14,11 @@
     margin: auto;
 }
 
+.toolplacementhover{
+    display: flex;
+    margin: -10px;
+}
+
 .TitreThirdPart {
     color: #4993d7;
     display: flex;
@@ -29,6 +34,11 @@
 
 .Projects {
     columns: 2;
+}
+
+.projectdesc {
+    width: 30rem;
+
 }
 
 .CardProjects {
@@ -53,7 +63,7 @@
     color: white;
     justify-content: space-evenly;
     background-color: #28282850;
-    gap: 4rem;
+    gap: 3rem;
     width: 92%;
     height: 87%;
     position: absolute;
@@ -62,6 +72,7 @@
     transform: translate(-50%, -50%);
     transition: all ease-in-out 0.5s;
     cursor: default;
+    align-items: center;
 }
 
 .InfoProjects:hover {
@@ -70,7 +81,7 @@
     flex-direction: column;
     color: white;
     justify-content: space-evenly;
-    gap: 4rem;
+    gap: 3rem;
     background-color: #28282880;
     width: 92%;
     height: 87%;
@@ -78,6 +89,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+align-items: center;
 }
 
 .TitreProjects {
@@ -99,7 +111,7 @@
         flex-direction: column;
         color: white;
         justify-content: space-evenly;
-        background-color: #ff0000d7;
+        background-color: #28282880;
         gap: 1rem;
         width: 86%;
         height: 78%;
@@ -125,6 +137,10 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
+    .projectdesc {
+        width:20rem;
+    
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -136,6 +152,10 @@
 
     .Projects {
         columns: 1;
+    }
+    .projectdesc {
+        width: 30rem;
+    
     }
 }
 
@@ -149,6 +169,10 @@
         display: flex;
         text-align: center;
         width: 17rem;
+    }
+    .projectdesc {
+        width:17rem;
+    
     }
 
     .Projects {
@@ -168,7 +192,7 @@
         color: white;
         justify-content: space-evenly;
         background-color: #28282850;
-        gap: 1rem;
+        gap: 0.1rem;
         width: 18rem;
         height: 78%;
         position: absolute;
@@ -184,7 +208,7 @@
         flex-direction: column;
         color: white;
         justify-content: space-evenly;
-        gap: 1rem;
+        gap: 0.1rem;
         background-color: #28282850;
         width: 86%;
         height: 78%;
@@ -204,10 +228,10 @@
     }
     .BoutonModal {
         width: 4rem;
-        height: 2rem;
-        font-size: 15px;
+        height: 1.3rem;
+        font-size: 12px;
     }
     .toolinfo {
-        width: 2rem;
+        width: 1rem;
     }
 }

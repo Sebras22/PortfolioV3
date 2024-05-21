@@ -221,7 +221,7 @@
         display: none;
     }
     .Pres {
-        z-index: 2;
+        z-index: 0;
         width: 90%;
         height: 50%;
         display: flex;
