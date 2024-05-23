@@ -25,13 +25,6 @@ function FirstPart() {
                             </div>
                         </div>
                     </div>
-                    {/* <div>
-                        Image de
-                        <a href="https://fr.freepik.com/photos-gratuite/equipement-jeu-video-futuriste-illumine-dans-boite-nuit-ai-generative_42214026.htm#query=gaming&position=1&from_view=search&track=sph&uuid=6e71f791-167a-45af-bfdc-f579c9244d66">
-                            vecstock
-                        </a>{" "}
-                        sur Freepik
-                    </div> */}
                 </section>
             </div>
         </>

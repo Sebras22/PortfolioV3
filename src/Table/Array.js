@@ -39,7 +39,7 @@ export const Pres = [
     {
         src: IconListCheck,
         title: "What can I do ?",
-        text: "My range of soft & hard skills is always evolving with every experiences and projects. I'm someone very patient and calm, curious, and maybe a little bit stubborn, working alone or in groupe isn't an issue for me, I have a good adaptation to my environment. My hardskills are various, for example with UI and UX, I took the habit to look on different platforms the styles, the new ways to make a website or an app more liekable; also when I do my designs for my projects I always think about the way I will do it, and I make a simple design but efficient. In devlopement I'm used to work with Visual Studio Code, using frameworks like ReactJS principaly. For various projects I used things like Pocketbase as an online database, easier to implement and to use.",
+        text: "My range of soft & hard skills is always evolving with every experiences and projects. I'm someone very patient and calm, curious, and maybe a little bit stubborn, working alone or in groupe isn't an issue for me, I have a good adaptation to my environment. My hardskills are various, for example with UI and UX, I took the habit to look on different platforms the styles, the new ways to make a website or an app more liekable; also when I do my designs for my projects I always think about the way I will do it, and I make a simple design but efficient. In devlopement I'm used to work with Visual Studio Code, using frameworks like ReactJS principaly. For various projects I used softwares like Pocketbase as an online database, easier to implement and to use.",
     },
 ];
 

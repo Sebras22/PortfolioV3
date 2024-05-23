@@ -65,7 +65,7 @@
     .Game {
         margin-top: 2rem;
         width: 40rem;
-        height: 30rem;
+        height: 28rem;
         max-width: none;
         z-index: -1;
         height: auto;
@@ -75,4 +75,31 @@
         position: relative;
         overflow: hidden;
     }
+    .VagueSurImage{
+        height: 22rem;
+    }
 }
+
+
+@media screen and (max-width: 320px) {
+    .bodyfirstpart {
+        height: 72rem;
+    }
+    .Game {
+        margin-top: 2rem;
+        width: 40rem;
+        height: 28rem;
+        max-width: none;
+        z-index: -1;
+        height: auto;
+        position: absolute;
+    }
+    .ImageDéco {
+        position: relative;
+        overflow: hidden;
+    }
+    .VagueSurImage{
+        height: 18rem;
+    }
+}
+

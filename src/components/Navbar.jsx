@@ -13,8 +13,8 @@ function Navbar() {
                     <div className="NomSite">{"<Seb>"}</div>
 
                     <section className="NavbarGauche">
-                        <a href="#Accueil" className="LienNavbar">
-                            Accueil
+                        <a href="#Home" className="LienNavbar">
+                            Home
                         </a>
                         <a href="#Skills" className="LienNavbar">
                             Skills

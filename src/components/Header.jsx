@@ -19,8 +19,8 @@ function Header() {
                     </div>
                 </div>
                 <div className="TextePrésentation">
-                    I’m a french student from Efrei Paris,
-                    <span>I’m currently studying in web development.</span>
+                    I’m a French student from Efrei Paris,
+                    <span>I’m currently studying web development.</span>
                 </div>
                 <a href="#Footer">
                     <button className="BoutonContact">Contact</button>
