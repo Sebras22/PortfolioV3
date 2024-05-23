@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 1025px) {
     .blob {
-        width: 1000px;
+        display: none;
     }
     .Pres {
         z-index: 2;
@@ -112,6 +112,16 @@
         align-items: baseline;
         margin: 1.5rem;
     }
+}
+
+
+@media screen and (max-width: 870px) {  
+    .Présentation {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -208,7 +218,14 @@
         margin: 1.25rem;
     }
 }
-
+@media screen and (max-width: 596px) {  
+    .Présentation {
+    margin-top:15rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+}
 @media screen and (max-width: 426px) {
     .Présentation {
         margin-top: 20rem;

@@ -97,6 +97,50 @@ align-items: center;
     font-size: x-large;
 }
 
+@media screen and (max-width: 1300px) {
+
+    .InfoProjects {
+        opacity: 0;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: space-evenly;
+        background-color: #28282880;
+        gap: 0.5rem;
+        width: 88%;
+        height: 78%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all ease-in-out 0.5s;
+        cursor: default;
+    }
+    .InfoProjects:hover {
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: space-evenly;
+        gap: 0.5rem;
+        background-color: #28282850;
+        width: 88%;
+        height: 78%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .projectdesc {
+        width: 25rem;
+    
+    }
+}
+
+
+
+
 @media screen and (max-width: 1024px) {
     .CardProjects {
         position: relative;
@@ -149,6 +193,9 @@ align-items: center;
         z-index: 1;
         padding-top: 5rem;
     }
+    .TitreThirdPart{
+        font-size: larger; 
+    }
 
     .Projects {
         columns: 1;
@@ -156,6 +203,39 @@ align-items: center;
     .projectdesc {
         width: 30rem;
     
+    }
+    .InfoProjects {
+        opacity: 0;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: space-evenly;
+        background-color: #28282880;
+        gap: 1rem;
+        width: 92%;
+        height: 83%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all ease-in-out 0.5s;
+        cursor: default;
+    }
+    .InfoProjects:hover {
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: space-evenly;
+        gap: 1rem;
+        background-color: #28282850;
+        width: 92%;
+        height: 83%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 
