@@ -10,3 +10,7 @@ body {
 a {
     text-decoration: none;
 }
+*{
+    border: 10px;
+    border-color: red;
+}
